@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function NavBar() {
   return (
     <div>
-      <br/>
+      
 <h1>Dream Car Motors</h1>
    
     <div className="navbar">
