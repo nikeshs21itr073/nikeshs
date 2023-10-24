@@ -41,7 +41,7 @@ function Sigg() {
       };
 
       try {
-        const response = await axios.post('http://44.226.122.3:3005/uu/user/insertion', requestData);
+        const response = await axios.post('https://backendcarsales.onrender.com/uu/user/insertion', requestData);
         if (response.data.user) {
           toast.success('Welcome ' + response.data.user.uname + '✌️✌️');
         } else {
