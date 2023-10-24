@@ -28,7 +28,7 @@ function BookingForm() {
   const handleSubmit = async (values, { resetForm }) => {
     values.password = 'dummyPassword';
     try {
-      const response = await axios.post('http://localhost:3005/u/h', values);
+      const response = await axios.post('https://backend-carsales.onrender.com/u/h', values);
       
       if (response.data.message === "Booking successful") {
         // Send SMS to the inputted phone number
