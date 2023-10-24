@@ -35,7 +35,7 @@ function L() {
     };
 
     try {
-      const response = await axios.post('http://localhost:3005/uu/user/search', requestData);
+      const response = await axios.post('http://52.41.36.82:3005/uu/user/search', requestData);
       const { success, message, user } = response.data;
 
       if (success) {
